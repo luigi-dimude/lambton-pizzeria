@@ -1,0 +1,127 @@
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Utilities */
+.container {
+    margin: auto;
+    max-width: 1250px;
+    overflow: auto;
+    /* padding: 1rem; */
+}
+
+#home {
+    position: fixed;
+    width: 100%;
+}
+/* Showcase */
+#showcase {
+    background: url(../img/showcase2.jpg) no-repeat center center/cover;
+    height: 100vh;
+    margin-bottom: 3rem;
+    color: #fff;
+    position: relative;
+}
+
+#navbar .container {
+    z-index: 1;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    
+
+}
+
+#navbar a {
+    margin-right: 1.5em;
+    font-size: 2em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px transparent solid;
+    transition: border-color 0.5s;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#navbar a.current,
+#navbar a:hover {
+    border-color: #FFF;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .btn a {
+    display: inline-block;
+    font-family: monospace;
+    border: 2px solid rgb(75, 75, 75);
+    background: transparent;
+    color:  #FFF;
+    text-decoration: none;
+    padding: .75rem 1.75rem;
+    text-transform: uppercase;
+    font-size: 2em;
+    transition: ease-in .2s;
+    margin-right: 0;
+}
+
+#navbar .btn a:hover {
+    background-color:  #FFF;
+    color: rgb(14, 8, 8);
+}
+
+.showcase-text {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 4em;
+}
+.showcase-text h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    color: rgb(243, 243, 243);
+    text-shadow: 0 0 10px #000;
+    margin-bottom: 1em;
+}
+
+.showcase-text h1 {
+    font-size: 6em;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* text-shadow: 0 3px 0 rgba(255, 255, 255, 0.4); */
+    text-transform: uppercase;
+
+
+    
+}
+.showcase-text h1 span {
+    display: block;
+    font-size: 1.1em;
+}
+
+.showcase-text p {
+    font-size: 1.5em;
+    font-family: monospace;
+}
